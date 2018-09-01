@@ -12,9 +12,9 @@ export class DialogComponent implements OnInit {
   public dialog: Dialog;
   constructor(
     public dialogRef: MatDialogRef<DialogComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: Dialog
+    @Inject(MAT_DIALOG_DATA) public data: any
   ) {
-    this.dialog = data;
+    this.dialog = data.dialog;
   }
 
   close = (result?)=>{
