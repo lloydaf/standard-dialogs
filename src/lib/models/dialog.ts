@@ -1,5 +1,7 @@
 import { Button } from "./buttons/button";
-
+/**
+ * Defines an immutable Dialog Class.
+ */
 export class Dialog {
   readonly title: string;
   readonly content: string;

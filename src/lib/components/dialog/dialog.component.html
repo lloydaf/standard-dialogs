@@ -1,7 +1,7 @@
 <h1 mat-dialog-title>{{dialog.title}}</h1>
 <mat-dialog-content>
   {{dialog.content}}
-  <mat-dialog-actions>
-    <button mat-button *ngFor="let button of dialog.buttons">{{button.text}}</button>
-  </mat-dialog-actions>
 </mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button *ngFor="let button of dialog.buttons" (click)="click(button)">{{button.text}}</button>
+</mat-dialog-actions>
