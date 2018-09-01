@@ -6,7 +6,7 @@ A Library that uses the Angular Material Framework for providing standard dialog
 You can install Standard Dialogs through npm
 
 ```
-npm install --save @lloydaf/standard-dialogs
+npm install --save standard-dialogs
 ```
 
 ## Usage
