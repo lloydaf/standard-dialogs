@@ -3,5 +3,5 @@
  */
 
 export * from './lib/standard-dialogs.service';
-export * from './lib/standard-dialogs.component';
 export * from './lib/standard-dialogs.module';
+export * from './lib/services/confirm-prompt.service';

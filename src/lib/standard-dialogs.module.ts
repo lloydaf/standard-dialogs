@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
-import { StandardDialogsComponent } from './standard-dialogs.component';
-import { ConfirmPromptComponent } from './components/confirm-prompt/confirm-prompt.component';
-
+import { MatDialogModule } from '@angular/material/dialog';
+import { DialogComponent } from './components/dialog/dialog.component';
 @NgModule({
   imports: [
+    MatDialogModule
   ],
-  declarations: [StandardDialogsComponent, ConfirmPromptComponent],
-  exports: [StandardDialogsComponent]
+  declarations: [DialogComponent],
+  exports: [DialogComponent]
 })
 export class StandardDialogsModule { }
