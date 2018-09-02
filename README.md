@@ -17,7 +17,7 @@ For example, in app.module.ts,
 
 ```typescript
 ...
-import { StandardDialogsModule } from "@lloydaf/standard-dialogs";
+import { StandardDialogsModule } from "standard-dialogs";
 ...
 @NgModule({
   imports: [StandardDialogsModule],
